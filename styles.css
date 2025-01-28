@@ -1,0 +1,511 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    background-color: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    all:unset;
+}
+
+.fullWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+
+/*_______________________header______________________*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.MainLogo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.MainLogoText {
+    color: #000;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.NavSearch {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.SearchList {
+    display: flex;
+    gap: 4px;
+}
+
+.SearchListItem {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.Buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.Button {
+    display: flex;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid #D5D7DA;
+}
+
+#Button1 {
+    color: #414651;
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-sm, 14px);
+    font-weight: 600;
+    line-height: var(--Line-height-text-sm, 20px);
+    background-color: #FFF;
+}
+
+#Button2 {
+    color: #FFF;
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-sm, 14px);
+    font-weight: 600;
+    line-height: var(--Line-height-text-sm, 20px);
+    background-color: #7F56D9;
+}
+
+
+/*______________________________main_______________________________*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Wellcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.WellcomeText {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl, 16px);
+    align-items: center;
+}
+
+.Feature {
+    display: flex;
+    gap: 12px;
+    padding: 8px 12px 8px 8px;
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+
+
+
+.NewFeature {
+    display: flex;
+    border-radius: var(--radius-sm, 6px);
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    padding: 4px 8px;
+}
+
+.CheckFeature {
+    display: flex;
+align-items: center;
+gap: var(--spacing-xs, 4px);
+}
+
+.CheckFeature image {
+    width: 16px;
+height: 16px;
+}
+
+.SameFeatureText {
+    color: #414651;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.WellcomeDescription {
+    color: #535862;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 1024px;
+    width: 100%;
+}
+
+
+#MainTitle {
+    color: #181D27;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px; 
+}
+
+.BiggerButtons {
+    display: flex;
+    gap: 12px;
+}
+
+.PlayButton {
+    display: flex;
+    gap: 8px;
+}
+
+.Biggerbuttons {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+    background-color: #FFF;
+}
+
+.ButtonText {
+    font-weight: 600;
+    line-height: 28px;
+}
+
+#SecondBiggerText {
+    color: #FFF;
+}
+
+#SecondBiggerButton {
+    background-color: #7F56D9;
+}
+
+.dashboard-container {
+    width: 100%;
+}
+
+.Gap {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+.features {
+    color: #6941C6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.Title2 {
+    color: #181D27;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.Features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.Infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FEATURES {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Inboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+}
+
+.Images {
+    display: flex;
+width: 48px;
+height: 48px;
+padding: 12px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid #E9EAEB;
+background: #FFF;
+padding: 16px;
+}
+
+.InfoTitle {
+    color: #181D27;
+text-align: center;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+}
+
+.InfoDescription {
+    color: #535862;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+}
+
+.Cards {
+    display: flex;
+    gap: 32px;
+}
+
+.FirstDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: var(--spacing-xl, 16px);
+    padding: 32px 32px 0px 32px;
+}
+
+.CardsTitle {
+    color: #6941C6;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+}
+
+.CardsMoney {
+    color: #181D27;
+text-align: center;
+font-size: 48px;
+font-weight: 600;
+line-height: 60px; 
+}
+
+.CardsDescription {
+    color: #535862;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.FirstCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background-color: #FFF;
+    max-width: 496px;
+    width: 100%;
+}
+
+.CARDS {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Ganlageba {
+    display: flex;
+    gap: 12px;
+}
+
+.Texts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px 32px 40px 32px;
+    width: 432px;
+}
+
+
+
+
+
+.CardsButton p {
+    color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+}
+
+.CardsButton {
+    display: flex;
+padding: var(--spacing-lg, 12px) 18px;
+justify-content: center;
+align-items: center;
+gap: var(--spacing-sm, 6px);
+align-self: stretch;
+border-radius: var(--radius-md, 8px);
+padding: 32px;
+background: #FAFAFA;
+border-top: 1px solid #E9EAEB;
+}
+
+.CardsButton button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 432px;
+    width: 100%;
+    background-color: #7F56D9;
+    padding: var(--spacing-lg, 12px) 18px;
+    border-radius: var(--radius-md, 8px);
+}
+
+
+.Review {
+    display: flex;
+    border-radius: 24px;
+background: #53389E;
+}
+
+
+.review {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: var(--spacing-7xl, 64px);
+}
+
+.FirstPart {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Stars {
+    display: flex;
+}    
+
+.ReviewText {
+    color: #FFF;
+font-size: 36px;
+font-weight: 500;
+line-height: 44px;
+}
+
+.name {
+    color: #FFF;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+}
+
+.Proffesion {
+    color: #E9D7FE;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.Circles {
+    display: flex;
+    gap: var(--spacing-xl, 16px);
+}
+
+.Circles image {
+    width: 10px;
+height: 10px;
+}
+
+.PhotoDiv {
+    border-radius: var(--radius-none, 0px);
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+width: 480px;
+min-height: 448px;
+flex-shrink: 0;
+align-self: stretch;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.FooterSearch ul {
+    display: flex;
+    gap: 32px;
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
